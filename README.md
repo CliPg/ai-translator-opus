@@ -2,6 +2,16 @@
 
 一个粗旷狂野风格的AI翻译助手，使用通义千问API进行中英翻译。
 
+<p align="center">
+  <a>
+    <img src="doc/image.png" width="150">
+  </a>
+</p>
+
+
+## 项目展示
+![show](doc/ai-translator.gif)
+
 ## 项目结构
 
 ```
