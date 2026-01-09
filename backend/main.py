@@ -19,7 +19,7 @@ app = FastAPI(title="AI翻译助手", description="中英翻译服务")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -59,7 +59,7 @@ async def call_qwen_api(text: str) -> dict:
     }
     
     payload = {
-        "model": "qwen-turbo",
+        "model": "glm-4.7",
         "messages": [
             {
                 "role": "system",
