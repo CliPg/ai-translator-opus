@@ -1,0 +1,25 @@
+# 服务配置
+server:
+  host: "0.0.0.0"
+  port: 8000
+  reload: false  # 开发环境可设为 true
+
+# API 配置
+api:
+  name: "通义千问"
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  timeout: 30.0
+  max_retries: 3
+
+# 模型配置
+model:
+  name: "glm-4.7"
+  temperature: 0.7
+  max_tokens: 2000
+
+# 翻译配置
+translation:
+  # 系统提示词
+  system_prompt: "你是一个专业的中英翻译专家。请将用户提供的中文翻译成准确、流畅的英文，并提取关键词。只返回JSON格式结果。"
+  # 提取关键词数量
+  keyword_count: 3

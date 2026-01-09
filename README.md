@@ -47,8 +47,6 @@ cp .env.example .env
 ```bash
 cd backend
 python main.py
-# 或者使用 uvicorn
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 后端服务将在 http://localhost:8000 运行
