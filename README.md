@@ -10,7 +10,9 @@
 
 
 ## 项目展示
-![show](doc/ai-translator.gif)
+<p align="center">
+  <img src="doc/ai-translator.gif" width="600">
+</p>
 
 ## 项目结构
 
