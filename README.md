@@ -2,7 +2,7 @@
 
 <p align="center">
   <a>
-    <img src="doc/image.png" width="700">
+    <img src="doc/logo.png" width="700">
   </a>
 </p>
 
@@ -12,6 +12,10 @@
 ## 项目展示
 <p align="center">
   <img src="doc/ai-translator.gif" width="600">
+</p>
+
+<p align="center">
+  <img src="doc/demo.png" width="600">
 </p>
 
 ## 项目结构
